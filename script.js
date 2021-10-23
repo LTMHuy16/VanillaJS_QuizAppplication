@@ -147,6 +147,7 @@ next_btn.onclick = () => {
 
     next_btn.style.display = "none";
   } else {
+    que_count = 0;
     clearInterval(counter);
     clearInterval(counterLine);
     showResultBox();
